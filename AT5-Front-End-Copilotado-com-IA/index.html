@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Como o trabalho remoto para empresas estrangeiras afeta o pertencimento e a saúde emocional de jovens desenvolvedores brasileiros da Geração Z.">
+  <title>Expatriados de Sofá | Solidão e Trabalho Remoto Internacional</title>
+
+  <script>
+    try {
+      if (localStorage.getItem("tema") === "dark") {
+        document.documentElement.classList.add("dark-mode");
+      }
+    } catch (e) {}
+  </script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Navegação principal">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/nav-logo.png" alt="" class="d-inline-block align-text-top">
+        Expatriados de Sofá
+      </a>
+
+      <div class="d-flex align-items-center gap-2 ms-auto order-lg-last">
+        <button class="btn btn-tema" type="button" aria-label="Alternar tema claro e escuro" aria-pressed="false">
+          <img src="img/nav-dark.png" alt="">
+        </button>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Abrir ou fechar menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html" aria-current="page">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#dados">Dados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="transparencia.html">Transparência</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main class="container my-5">
+
+  <section class="row align-items-center mb-5 pb-4" aria-labelledby="titulo-hero">
+    <div class="col-lg-6 mb-4 mb-lg-0 section-text">
+      <span class="badge mb-3 px-3 py-2">Geração Z e trabalho remoto</span>
+      <h1 id="titulo-hero" class="display-5 fw-bold mb-3">Expatriados de Sofá</h1>
+      <p class="lead mb-4">
+        Ganhar em dólar sem sair de casa: o que os jovens devs brasileiros ganham e perdem ao trabalhar para o mundo sozinhos.
+      </p>
+      <p class="lead mb-4">
+        Renda internacional e autonomia de um lado. Isolamento e falta de pertencimento do outro. Veja o que dizem as pesquisas e teste a sua própria percepção.
+      </p>
+      <div class="d-flex flex-wrap gap-3">
+        <a href="#dados" class="btn px-4 py-2 hero-btn-primario">Ver dados</a>
+        <a href="#simulador" class="btn px-4 py-2 hero-btn-secundario">Fazer o teste</a>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <img src="img/hero-trabalho.png" alt="Mesa de trabalho em home office com computador, teclado, xícara de café e caderno" class="img-fluid hero-img">
+    </div>
+  </section>
+
+  <section id="dados" class="mb-5 py-4" aria-labelledby="titulo-dados">
+    <div class="mb-5">
+      <h2 id="titulo-dados" class="fw-bold">O que as pesquisas mostram</h2>
+      <p class="texto-apoio">Quatro números para entender o cenário. Fonte e ano em cada cartão.</p>
+    </div>
+
+    <div class="row justify-content-center mb-5">
+      <div class="col-lg-10">
+        <article class="card card-dado p-4 shadow-sm border-0">
+          <div class="card-body">
+            <span class="badge mb-2 px-3 py-2">Visualização de dados</span>
+            <h3 class="h4 fw-bold mb-3">Solidão por regime de trabalho</h3>
+            <p class="texto-apoio mb-4">Percentual de trabalhadores que relatam solidão diária, de acordo com o regime de trabalho.</p>
+
+            <div class="grafico-box">
+              <canvas id="graficoDesafios" role="img" aria-label="Gráfico de barras sobre solidão por regime de trabalho, segundo o Gallup em 2024: 25% entre os trabalhadores 100% remotos, 21% entre os híbridos e 16% entre os presenciais."></canvas>
+            </div>
+            <p class="card-fonte small mt-3 mb-0">Fonte: Gallup, State of the Global Workplace 2024.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+      <div class="col">
+        <article class="card card-dado h-100 border-0 shadow-sm">
+          <div class="card-body">
+            <img src="img/card-1.png" class="card-icone" alt="">
+            <h3 class="h5 fw-bold">Solidão em casa</h3>
+            <p class="porcento">25%</p>
+            <p class="card-text">dos trabalhadores 100% remotos relatam solidão, contra 16% dos que trabalham presencialmente.</p>
+            <p class="card-fonte small mb-0">Fonte: Gallup, 2024.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col">
+        <article class="card card-dado h-100 border-0 shadow-sm">
+          <div class="card-body">
+            <img src="img/card-2.png" class="card-icone" alt="">
+            <h3 class="h5 fw-bold">Fora, sem sair do Brasil</h3>
+            <p class="porcento">98,2%</p>
+            <p class="card-text">dos brasileiros que trabalham para empresas estrangeiras preferem continuar morando no país.</p>
+            <p class="card-fonte small mb-0">Fonte: Husky, Global Worker 2024.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col">
+        <article class="card card-dado h-100 border-0 shadow-sm">
+          <div class="card-body">
+            <img src="img/card-3.png" class="card-icone" alt="">
+            <h3 class="h5 fw-bold">Um alerta global</h3>
+            <p class="porcento">1 em 6</p>
+            <p class="card-text">pessoas no mundo vivem a solidão, que a OMS passou a tratar como prioridade de saúde pública.</p>
+            <p class="card-fonte small mb-0">Fonte: OMS, Comissão de Conexão Social, 2025.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="col">
+        <article class="card card-dado h-100 border-0 shadow-sm">
+          <div class="card-body">
+            <img src="img/card-4.png" class="card-icone" alt="">
+            <h3 class="h5 fw-bold">A maior dificuldade</h3>
+            <p class="porcento">23%</p>
+            <p class="card-text">dos trabalhadores remotos apontam a solidão como seu maior desafio no trabalho a distância.</p>
+            <p class="card-fonte small mb-0">Fonte: Buffer, State of Remote Work 2023.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="simulador" class="mb-5 py-4 border-top pt-5" aria-labelledby="titulo-simulador">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <article class="card card-dado p-4 shadow-sm border-0">
+          <div class="card-body">
+            <span class="badge mb-2 px-3 py-2">Recurso interativo</span>
+            <h2 id="titulo-simulador" class="fw-bold mb-3">Teste de Percepção: o seu diagnóstico remoto</h2>
+            <p class="texto-apoio mb-4">Responda a estas 3 perguntas rápidas para avaliar o equilíbrio entre a sua autonomia e o risco de isolamento digital. É uma autoavaliação, não um diagnóstico clínico.</p>
+
+            <form id="quiz-form">
+              <div class="mb-4">
+                <label for="p1" class="form-label fw-bold">1. Com que frequência interage presencialmente com colegas ou amigos durante a semana de trabalho?</label>
+                <select class="form-select" id="p1" required>
+                  <option value="" selected disabled>Escolha uma opção...</option>
+                  <option value="3">Quase todos os dias (trabalho híbrido / encontros frequentes)</option>
+                  <option value="2">1 a 2 vezes por semana</option>
+                  <option value="1">Raramente ou nunca (100% isolado em casa)</option>
+                </select>
+              </div>
+
+              <div class="mb-4">
+                <label for="p2" class="form-label fw-bold">2. Sente que a diferença de fuso horário ou o trabalho assíncrono prejudica a sua vida interpessoal?</label>
+                <select class="form-select" id="p2" required>
+                  <option value="" selected disabled>Escolha uma opção...</option>
+                  <option value="3">Não, consigo separar bem o trabalho da vida pessoal.</option>
+                  <option value="2">Às vezes sinto dificuldade em desligar das notificações.</option>
+                  <option value="1">Sim, sinto-me constantemente ligado e desconectado da minha rotina local.</option>
+                </select>
+              </div>
+
+              <div class="mb-4">
+                <label for="p3" class="form-label fw-bold">3. Quando precisa de ajuda técnica ou desabafo profissional, a quem recorre?</label>
+                <select class="form-select" id="p3" required>
+                  <option value="" selected disabled>Escolha uma opção...</option>
+                  <option value="3">A uma rede sólida de mentores, amigos e colegas.</option>
+                  <option value="2">A comunidades online ou fóruns de tecnologia.</option>
+                  <option value="1">Apenas à Inteligência Artificial / tento resolver tudo sozinho.</option>
+                </select>
+              </div>
+
+              <button type="submit" class="btn hero-btn-primario w-100 py-2 mt-2">Calcular diagnóstico</button>
+            </form>
+
+            <div id="resultado-container" class="mt-4 p-4 rounded-3 d-none" aria-live="polite">
+              <h3 class="h4 fw-bold" id="resultado-titulo"></h3>
+              <p id="resultado-texto" class="mb-0"></p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
