@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
             evento.preventDefault();
             var aviso = document.querySelector("#aviso-envio");
             if (aviso) {
-                aviso.textContent = "Mensagem enviada! Responderemos em breve, obrigado por escrever para a Página Viva.";
+                aviso.textContent = "Formulário demonstrativo: sua mensagem não foi enviada. Esta atividade não possui integração com um servidor.";
             }
             formulario.reset();
         });
