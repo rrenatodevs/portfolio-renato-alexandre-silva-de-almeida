@@ -1,45 +1,48 @@
-# AT5 – Expatriados de Sofá
+# 🛋️ Expatriados de Sofá
 
-## 📖 Sobre o projeto
+## 📝 Descrição do Projeto
 
-**Expatriados de Sofá** é um projeto front-end que discute os efeitos do trabalho remoto internacional sobre o sentimento de pertencimento e o isolamento social de jovens desenvolvedores brasileiros. A proposta apresenta dados de pesquisas, referências, limites metodológicos e um recurso de autoavaliação interativo.
+**Expatriados de Sofá** é um projeto front-end que aborda os efeitos do trabalho remoto internacional sobre o sentimento de pertencimento e o isolamento social de jovens desenvolvedores brasileiros.
 
-## 🧰 Tecnologias e recursos
+A proposta apresenta conteúdos e dados relacionados ao tema, referências e limitações metodológicas, além de um recurso interativo de autoavaliação. O projeto foi desenvolvido como atividade acadêmica, combinando estruturação de páginas, recursos visuais, interatividade e apoio de ferramentas de inteligência artificial durante o processo de desenvolvimento.
 
-- HTML5 semântico.
-- CSS3 com variáveis, layout responsivo e tema claro/escuro.
-- Bootstrap 5.0.2 para estrutura e componentes responsivos.
-- JavaScript para interações, formulário demonstrativo, tema persistente e lógica do questionário.
-- Chart.js para visualização de dados.
-- LocalStorage para salvar a preferência de tema.
-- Preferência de movimento reduzido respeitada na animação do gráfico.
+### Páginas e recursos
 
-## 📄 Páginas e documentação
+- **Início (`index.html`):** apresentação do tema, indicadores, gráfico e questionário interativo.
+- **Transparência (`transparencia.html`):** fontes consultadas, limitações dos dados e explicação metodológica.
+- **Contato (`contato.html`):** formulário demonstrativo e informações dos integrantes.
+- **Auditoria de IA (`AUDITORIA_IA.md`):** registro dos prompts, objetivos e aplicações de IA descritos pela equipe.
 
-- `index.html`: apresentação do tema, indicadores, gráfico e questionário interativo.
-- `transparencia.html`: fontes consultadas, limitações dos dados e explicação metodológica.
-- `contato.html`: formulário demonstrativo e perfis da dupla.
-- `AUDITORIA_IA.md`: registro dos prompts, objetivos e aplicações de IA descritos pela equipe.
-- `css/`: estilos do projeto.
-- `js/`: funcionalidades JavaScript.
-- `img/`: imagens utilizadas na interface.
+## 🚀 Tecnologias Utilizadas
 
-## 🎯 Aprendizados
+- **Linguagens:** HTML5, CSS3 e JavaScript.
+- **Bibliotecas/frameworks:** Bootstrap 5.0.2 e Chart.js.
+- **Armazenamento no navegador:** LocalStorage para persistir a preferência de tema.
+- **Ferramentas:** Visual Studio Code, Git e GitHub.
+- **Recursos:** layout responsivo, tema claro/escuro, gráfico interativo, questionário e suporte à preferência por movimento reduzido.
 
-A atividade reúne práticas de acessibilidade em HTML, organização de estilos com variáveis CSS, responsividade, manipulação do DOM, persistência de preferências no navegador e integração de biblioteca de gráficos. Também reforça a importância de documentar fontes, limitações e o uso de IA generativa.
+## 📊 Resultados e Aprendizados
 
-## ⚖️ Uso responsável de inteligência artificial
+O projeto resultou em um site temático com diferentes seções, elementos interativos e recursos de visualização de informações.
 
-O uso de IA generativa está documentado em [AUDITORIA_IA.md](./AUDITORIA_IA.md), que registra os objetivos dos prompts, as sugestões aplicadas e a validação humana descrita pela equipe. O documento deve permanecer coerente com o histórico real de desenvolvimento e com as contribuições de cada integrante.
+- **Desenvolvimento front-end:** integração de HTML, CSS e JavaScript em uma aplicação com múltiplas páginas.
+- **Responsividade e acessibilidade:** aplicação de práticas para melhorar a navegação em diferentes dispositivos e respeitar preferências de acessibilidade.
+- **Visualização de dados:** utilização do Chart.js para apresentar informações em formato gráfico.
+- **Interatividade:** implementação de questionário, alternância de tema e armazenamento da preferência no navegador.
+- **Transparência:** importância de apresentar referências, limitações e contexto dos dados utilizados.
 
-## 🚀 Como executar
+## 🧠 Declaração de Uso Ético da IA
 
-1. Abra a pasta `AT5-Front-End-Copilotado-com-IA`.
-2. Abra `index.html` em um navegador atualizado.
-3. Para carregar Bootstrap e Chart.js, mantenha conexão com a internet.
-4. Navegue pelas opções **Início**, **Dados**, **Transparência** e **Contato**.
+A atividade envolveu o uso de inteligência artificial como ferramenta de apoio ao desenvolvimento. A documentação específica desse processo está disponível no arquivo [AUDITORIA_IA.md](./AUDITORIA_IA.md), que reúne os registros de prompts, objetivos e aplicações descritos pela equipe.
 
-O formulário de contato é demonstrativo e não envia mensagens para um servidor. O questionário é uma autoavaliação educativa, não um diagnóstico clínico. Não há endereço de deploy confirmado nesta documentação.
+A IA foi utilizada como suporte, e não como substituta da análise e das decisões dos integrantes. O conteúdo final deve permanecer alinhado ao histórico real de desenvolvimento e às contribuições de cada participante.
+
+## 💻 Deploy do Projeto
+
+O projeto ainda não foi publicado no GitHub Pages ou em outra plataforma de hospedagem.
+
+- **Código-fonte:** disponível neste repositório.
+- **Deploy:** ainda não realizado.
 
 ---
 
