@@ -1,56 +1,45 @@
-# AT1 – Livraria Página Viva
+# 📚 Livraria Página Viva
 
-## 📖 Sobre o projeto
+## 📝 Descrição do Projeto
 
-A **Livraria Página Viva** é um site institucional fictício desenvolvido como atividade acadêmica de Desenvolvimento Front-End para Web. O projeto apresenta uma livraria de bairro e organiza suas informações em cinco páginas:
+A **Livraria Página Viva** é um site institucional fictício desenvolvido como atividade acadêmica da disciplina de Desenvolvimento Front-End para Web. O projeto apresenta uma livraria de bairro e organiza suas informações em cinco páginas conectadas por um menu de navegação.
 
-- **Início:** apresentação da livraria e destaques.
-- **Livros:** catálogo demonstrativo de títulos.
-- **Sobre:** história, equipe e informações institucionais fictícias.
-- **Eventos:** agenda demonstrativa de atividades.
-- **Contato:** endereço fictício e formulário demonstrativo.
+O site foi construído para praticar a estruturação de páginas com HTML5, a aplicação de estilos com CSS3 e a inclusão de interações básicas com JavaScript. Entre os conteúdos apresentados estão a página inicial, um catálogo demonstrativo de livros, informações sobre a livraria, uma agenda de eventos e um formulário de contato.
 
-O objetivo foi praticar a estruturação de páginas com HTML5 semântico, a navegação entre páginas e a estilização com CSS.
+### Páginas do projeto
 
-## 🧰 Tecnologias e recursos
+- **Início (`index.html`):** apresentação da livraria e destaques.
+- **Livros (`produtos.html`):** catálogo demonstrativo de títulos.
+- **Sobre (`sobre.html`):** história, equipe e informações institucionais fictícias.
+- **Eventos (`eventos.html`):** agenda demonstrativa de atividades.
+- **Contato (`contato.html`):** informações de contato fictícias e formulário demonstrativo.
 
-- HTML5: estrutura e elementos semânticos.
-- CSS3: layout, cores, tipografia e responsividade.
-- JavaScript: identificação da página atual no menu e retorno demonstrativo no envio do formulário.
-- Google Fonts: fontes Fraunces e Inter.
+## 🚀 Tecnologias Utilizadas
 
-## 📁 Estrutura
+- **Linguagens:** HTML5, CSS3 e JavaScript.
+- **Bibliotecas/recursos:** Google Fonts (Fraunces e Inter).
+- **Ferramentas:** Visual Studio Code, Git e GitHub.
+- **Recursos de desenvolvimento:** HTML semântico, CSS responsivo, navegação entre páginas e manipulação básica do DOM.
 
-```text
-AT1-Paginas-HTML/
-├── index.html
-├── produtos.html
-├── sobre.html
-├── eventos.html
-├── contato.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── image/
-└── README.md
-```
+## 📊 Resultados e Aprendizados
 
-## 🎯 Aprendizados
+O projeto resultou em um site multipáginas com identidade visual própria e navegação consistente entre suas seções.
 
-A atividade permitiu praticar a criação de páginas HTML relacionadas entre si, o uso de tags semânticas, a organização de CSS em arquivo externo, a adaptação do layout para telas menores e a manipulação básica do DOM com JavaScript.
+- **Estruturação:** prática na organização de páginas HTML e no uso de elementos semânticos.
+- **Estilização:** aplicação de CSS externo para definir cores, tipografia, espaçamentos e apresentação responsiva.
+- **Interatividade:** utilização de JavaScript para identificar a página atual no menu e apresentar um retorno demonstrativo no formulário.
+- **Organização:** separação dos arquivos HTML, CSS, JavaScript e imagens em diretórios próprios.
 
-## ⚖️ Uso responsável de inteligência artificial
+## 🧠 Declaração de Uso Ético da IA
 
-O repositório não contém um registro verificável das ferramentas de IA eventualmente utilizadas nesta atividade. Por isso, não atribuo ferramentas, prompts ou partes do código a uma IA sem confirmação. Caso tenha havido uso de IA, essa declaração deve ser complementada com a ferramenta e a finalidade reais, de acordo com as orientações da disciplina.
+Durante o desenvolvimento, utilizei ferramentas de inteligência artificial como apoio para esclarecer dúvidas, compreender conceitos e completar partes da implementação nas quais tive dificuldade. As sugestões foram utilizadas como suporte ao processo de desenvolvimento, com revisão e adaptação ao projeto. A responsabilidade pela versão final e pela conferência do funcionamento permanece comigo, como estudante e autor da entrega.
 
-## 🚀 Como executar
+## 💻 Deploy do Projeto
 
-1. Faça o download ou clone este repositório.
-2. Abra a pasta `AT1-Paginas-HTML`.
-3. Abra o arquivo `index.html` em um navegador.
+O projeto ainda não foi publicado no GitHub Pages ou em outra plataforma de hospedagem.
 
-Não há endereço de deploy confirmado nesta documentação.
+- **Código-fonte:** disponível neste repositório.
+- **Deploy:** ainda não realizado.
 
 ---
 
