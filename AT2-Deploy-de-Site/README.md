@@ -2,34 +2,41 @@
 
 ## 📝 Descrição do Projeto
 
-Esta atividade consiste no desenvolvimento e na publicação de um site próprio, com o objetivo de disponibilizar uma página acessível pela internet e registrar seu endereço público na planilha disponibilizada pelo professor.
+Esta atividade consiste no desenvolvimento e na publicação de um site multipáginas sobre saúde e bem-estar. O projeto apresenta conteúdos informativos sobre hábitos saudáveis, atividade física, alimentação, saúde mental e qualidade de vida, organizados em páginas com navegação entre si.
 
-A atividade ainda será realizada. Por isso, o site, seus arquivos-fonte e o endereço de publicação serão adicionados a esta pasta após a conclusão do desenvolvimento e do processo de deploy.
+O site foi desenvolvido com foco em estruturação de conteúdo, organização visual e adaptação a diferentes tamanhos de tela.
 
-## 🚀 Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
-As tecnologias serão registradas nesta seção após a definição e a implementação do site.
+- **HTML5:** estruturação das páginas e dos conteúdos.
+- **CSS3:** personalização de estilos.
+- **Bootstrap:** utilização de componentes e recursos do framework para construir o layout responsivo.
+- **Git e GitHub:** versionamento e hospedagem do código-fonte.
+- **GitHub Pages:** publicação do site na internet.
 
-- **Linguagens:** a confirmar.
-- **Bibliotecas/frameworks:** a confirmar, se utilizados.
-- **Ferramentas de desenvolvimento:** a confirmar.
-- **Plataforma de publicação:** a confirmar.
+## 📄 Estrutura do Projeto
+
+- `index.html`: página inicial.
+- `sobre.html`: apresentação e informações institucionais.
+- `galeria.html`: galeria de imagens.
+- `dados.html`: apresentação de dados e informações.
+- `contato.html`: formulário de contato.
+- `css/style.css`: estilos personalizados.
+- `img/`: imagens e elementos gráficos utilizados no site.
 
 ## 📊 Resultados e Aprendizados
 
-Os resultados e aprendizados serão documentados após a conclusão da atividade. A proposta é praticar o desenvolvimento de um site, sua publicação em uma plataforma de hospedagem e a disponibilização do link público solicitado pelo professor.
+A atividade permitiu praticar a criação de um site com múltiplas páginas, a construção de uma navegação consistente, a utilização de componentes do Bootstrap e a organização de arquivos em diretórios. Também foi possível realizar o processo de publicação com GitHub Pages e disponibilizar uma versão acessível pela internet.
 
 ## 🧠 Declaração de Uso Ético da IA
 
-Durante o desenvolvimento, ferramentas de inteligência artificial poderão ser utilizadas como apoio para esclarecer dúvidas, compreender conceitos e auxiliar em partes da implementação que apresentem dificuldades. O uso efetivo será descrito com mais detalhes após a conclusão da atividade, mantendo a documentação coerente com o processo realmente realizado.
+Ferramentas de inteligência artificial foram utilizadas como apoio durante o desenvolvimento, principalmente para esclarecer dúvidas, compreender recursos e auxiliar na resolução de partes da implementação em que houve dificuldade. As sugestões foram utilizadas como suporte ao processo de aprendizagem e desenvolvimento do projeto.
 
-## 💻 Deploy do Projeto
+## 🚀 Deploy do Projeto
 
-- **Link público do site:** será inserido após a publicação.
-- **Registro na planilha do professor:** será realizado conforme as instruções da atividade.
-- **Código-fonte:** será adicionado a esta pasta após a conclusão do site.
-
-> **Status:** atividade pendente de desenvolvimento e publicação. Esta documentação será atualizada quando os arquivos e o endereço real estiverem disponíveis.
+- **Site publicado:** [Acessar o projeto](https://rrenatodevs.github.io/bootstrap-pratica/)
+- **Repositório original:** [bootstrap-pratica](https://github.com/rrenatodevs/bootstrap-pratica)
+- **Código-fonte neste portfólio:** [AT2-Deploy-de-Site](./)
 
 ---
 
