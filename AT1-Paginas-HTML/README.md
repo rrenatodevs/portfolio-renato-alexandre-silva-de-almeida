@@ -1,63 +1,57 @@
-# 
-�
-�
- Nome do Projeto 
- 
-## 
-�
-�
- Descrição do Projeto 
-Este projeto consiste em um motor de recomendação inteligente que 
-utiliza técnicas de filtragem colaborativa e baseada em conteúdo. O 
-objetivo principal é mitigar a "paralisia de escolha", oferecendo aos 
-usuários sugestões personalizadas com base em seu histórico de 
-visualização e preferências de gênero. 
- 
-Desenvolvido como parte das disciplinas de **Desenvolvimento Front-End 
-Para Web (2026.2)**, o sistema processa grandes volumes de dados 
-(datasets de filmes e avaliações) para identificar padrões de 
-comportamento e similaridades entre títulos, utilizando algoritmos de 
-aprendizado de máquina para prever a nota que um usuário daria a um 
-filme ainda não assistido. 
- 
-## 
-�
-�
- Tecnologias Utilizadas 
-* **Linguagem:** HTML5, CSS e JavaScript 
-* **Bibliotecas:** Bootstrap 
-* **Ferramentas:** VSCode 
-* **Modelo de IA:** Gemini 
- 
-## 
-�
-�
- Resultados e Aprendizados 
-O projeto alcançou resultados sólidos em ambiente de teste, demonstrando 
-a eficácia do modelo híbrido. 
-* **O modelo atingiu 92% de acurácia** nos testes de validação. 
-* **Redução de Ruído:** Aprendi a aplicar técnicas de limpeza e 
-normalização de dados para melhorar a performance dos algoritmos. 
-* **Visualização de Clusters:** Implementei gráficos que mostram como o 
-sistema agrupa filmes por afinidade. 
- 
-## 
-�
-�
- Declaração de Uso Ético da IA 
-Este projeto utilizou inteligência artificial ([Nome do Modelo, ex: 
-ChatGPT / GitHub Copilot]) estritamente como ferramenta de suporte 
-tecnológico para [Finalidade, ex: estruturação inicial do HTML e 
-depuração de funções em JavaScript]. Todo o código gerado foi revisado, 
-testado e compreendido por mim, garantindo a minha responsabilidade 
-integral sobre a autoria final, integridade e funcionamento da 
-aplicação.  
- 
-## 
-�
-�
- Deploy do projeto 
- 
-[Clique para acessar](https://seu-usuario.github.io/xxxxxxxxx/) 
- --- 
-[Voltar ao início]((https://github.com/rrenatodevs/portfolio-renato-alexandre-silva-de-almeida/tree/main))
+# AT1 – Livraria Página Viva
+
+## 📖 Sobre o projeto
+
+A **Livraria Página Viva** é um site institucional fictício desenvolvido como atividade acadêmica de Desenvolvimento Front-End para Web. O projeto apresenta uma livraria de bairro e organiza suas informações em cinco páginas:
+
+- **Início:** apresentação da livraria e destaques.
+- **Livros:** catálogo demonstrativo de títulos.
+- **Sobre:** história, equipe e informações institucionais fictícias.
+- **Eventos:** agenda demonstrativa de atividades.
+- **Contato:** endereço fictício e formulário demonstrativo.
+
+O objetivo foi praticar a estruturação de páginas com HTML5 semântico, a navegação entre páginas e a estilização com CSS.
+
+## 🧰 Tecnologias e recursos
+
+- HTML5: estrutura e elementos semânticos.
+- CSS3: layout, cores, tipografia e responsividade.
+- JavaScript: identificação da página atual no menu e retorno demonstrativo no envio do formulário.
+- Google Fonts: fontes Fraunces e Inter.
+
+## 📁 Estrutura
+
+```text
+AT1-Paginas-HTML/
+├── index.html
+├── produtos.html
+├── sobre.html
+├── eventos.html
+├── contato.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── image/
+└── README.md
+```
+
+## 🎯 Aprendizados
+
+A atividade permitiu praticar a criação de páginas HTML relacionadas entre si, o uso de tags semânticas, a organização de CSS em arquivo externo, a adaptação do layout para telas menores e a manipulação básica do DOM com JavaScript.
+
+## ⚖️ Uso responsável de inteligência artificial
+
+O repositório não contém um registro verificável das ferramentas de IA eventualmente utilizadas nesta atividade. Por isso, não atribuo ferramentas, prompts ou partes do código a uma IA sem confirmação. Caso tenha havido uso de IA, essa declaração deve ser complementada com a ferramenta e a finalidade reais, de acordo com as orientações da disciplina.
+
+## 🚀 Como executar
+
+1. Faça o download ou clone este repositório.
+2. Abra a pasta `AT1-Paginas-HTML`.
+3. Abra o arquivo `index.html` em um navegador.
+
+Não há endereço de deploy confirmado nesta documentação.
+
+---
+
+[← Voltar ao portfólio](../README.md)
