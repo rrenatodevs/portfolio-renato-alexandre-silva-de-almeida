@@ -1,5 +1,3 @@
-# Projeto-em-Dupla
-Site em andamento com dois colaboradores
 # Relatório de Auditoria e Uso de Inteligência Artificial
 
 **Projeto:** Expatriados de Sofá  
