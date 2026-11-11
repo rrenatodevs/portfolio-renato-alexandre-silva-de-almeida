@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+    background-color: #F8F9FA;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 2px;
+}
+
+.carousel-item img {
+    height: 90vh;
+    object-fit: center top;
+    position: center center;
+}
+
+.card-arredondado {
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.row.mb-4 {
+  margin-bottom: 30px !important; 
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #212529;
+    padding: 10px;
+}
