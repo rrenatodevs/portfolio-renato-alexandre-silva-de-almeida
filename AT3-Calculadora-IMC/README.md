@@ -1,43 +1,43 @@
-# AT3 – Calculadora de IMC
+# 🧮 Calculadora de IMC
 
-## 📖 Sobre o projeto
+## 📝 Descrição do Projeto
 
-Calculadora simples de Índice de Massa Corporal (IMC), desenvolvida com HTML e JavaScript. O usuário informa peso e altura; a aplicação calcula o índice, apresenta o resultado com duas casas decimais e exibe uma classificação correspondente à faixa calculada.
+A **Calculadora de IMC** é uma aplicação web simples desenvolvida como atividade acadêmica. Seu objetivo é permitir que o usuário informe seu peso e sua altura para calcular o Índice de Massa Corporal (IMC) e visualizar uma classificação correspondente ao resultado.
 
-## 🧰 Tecnologias utilizadas
+A aplicação utiliza uma interface construída com HTML5 e realiza os cálculos e validações por meio de JavaScript. O projeto foi desenvolvido para praticar a captura de dados de formulários, operações matemáticas, estruturas condicionais e atualização dinâmica de conteúdo na página.
 
-- HTML5: estrutura da página, campos de entrada e botão.
-- JavaScript: leitura dos valores, validação básica, cálculo do IMC e apresentação do resultado.
+## 🚀 Tecnologias Utilizadas
 
-## ⚙️ Como funciona
+- **Linguagens:** HTML5 e JavaScript.
+- **Estilização:** CSS incorporado à página, conforme a implementação atual.
+- **Ferramentas:** Visual Studio Code, Git e GitHub.
+- **Conceitos aplicados:** formulários, validação de entradas, funções e estruturas condicionais.
 
-A fórmula aplicada é:
+## 📊 Resultados e Aprendizados
+
+O resultado é uma calculadora funcional que recebe os dados informados, calcula o IMC e apresenta o valor com duas casas decimais, acompanhado de uma classificação.
+
+A fórmula utilizada é:
 
 `IMC = peso (kg) / altura (m)²`
 
-O resultado é enquadrado nas faixas implementadas no código: abaixo de 18,5; de 18,5 a menos de 25; de 25 a menos de 30; de 30 a menos de 35; de 35 a menos de 40; e 40 ou mais.
+- **Manipulação de formulários:** leitura e tratamento dos valores informados pelo usuário.
+- **Lógica de programação:** aplicação de operações matemáticas e estruturas condicionais.
+- **Validação:** verificação de entradas para evitar cálculos com valores inválidos.
+- **Manipulação do DOM:** apresentação do resultado diretamente na interface.
 
-A classificação é apenas informativa e não substitui avaliação de um profissional de saúde.
+A classificação apresentada possui finalidade informativa e não substitui avaliação de um profissional de saúde.
 
-## 🎯 Aprendizados
+## 🧠 Declaração de Uso Ético da IA
 
-- Captura de valores de campos HTML com JavaScript.
-- Conversão de entradas numéricas.
-- Uso de estruturas condicionais.
-- Validação de entradas e atualização do conteúdo da página.
+Durante o desenvolvimento, utilizei ferramentas de inteligência artificial como apoio para esclarecer dúvidas, compreender conceitos e completar partes da implementação nas quais tive dificuldade. As sugestões foram utilizadas como suporte ao processo de desenvolvimento, com revisão e adaptação ao projeto. A responsabilidade pela versão final e pela conferência do funcionamento permanece comigo, como estudante e autor da entrega.
 
-## ⚖️ Uso responsável de inteligência artificial
+## 💻 Deploy do Projeto
 
-O repositório não contém um registro verificável das ferramentas de IA eventualmente utilizadas nesta atividade. Não atribuo ferramentas, prompts ou trechos do código a uma IA sem confirmação. Se houve uso, esta seção deve ser complementada com a ferramenta e a finalidade reais.
+O projeto ainda não foi publicado no GitHub Pages ou em outra plataforma de hospedagem.
 
-## 🚀 Como executar
-
-1. Abra a pasta `AT3-Calculadora-IMC`.
-2. Abra `index.html` em um navegador atualizado.
-3. Informe o peso em quilogramas e a altura em metros.
-4. Selecione **Calcular**.
-
-Não há endereço de deploy confirmado.
+- **Código-fonte:** disponível neste repositório.
+- **Deploy:** ainda não realizado.
 
 ---
 
