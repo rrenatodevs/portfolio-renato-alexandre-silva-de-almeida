@@ -1,10 +1,12 @@
-# AT4 – Saúde e Bem-Estar
+# 🌱 Saúde e Bem-Estar
 
-## 📖 Sobre o projeto
+## 📝 Descrição do Projeto
 
-Site multipáginas com o tema **Saúde e Bem-Estar**, desenvolvido como atividade acadêmica para praticar a construção de interfaces com Bootstrap 5. O conteúdo aborda hábitos saudáveis, alimentação, atividade física, sono e bem-estar.
+**Saúde e Bem-Estar** é um site multipáginas desenvolvido como atividade acadêmica para praticar a criação de interfaces web utilizando Bootstrap. O conteúdo aborda temas relacionados a hábitos saudáveis, alimentação, atividade física, sono e bem-estar.
 
-O projeto está organizado nas seguintes páginas:
+O projeto reúne diferentes páginas conectadas por um menu de navegação e utiliza componentes do Bootstrap para organizar o conteúdo e adaptar a interface a diferentes tamanhos de tela.
+
+### Páginas do projeto
 
 - **Início (`index.html`):** apresentação do tema e carrossel de imagens.
 - **Galeria (`galeria.html`):** conteúdo visual relacionado ao tema.
@@ -12,35 +14,34 @@ O projeto está organizado nas seguintes páginas:
 - **Contato (`contato.html`):** formulário de contato.
 - **Sobre (`sobre.html`):** apresentação do projeto.
 
-## 🧰 Tecnologias utilizadas
+## 🚀 Tecnologias Utilizadas
 
-- HTML5.
-- CSS3 em arquivo externo.
-- Bootstrap 5.0.2 via CDN.
-- JavaScript do Bootstrap para componentes interativos, como o menu responsivo e o carrossel.
+- **Linguagens:** HTML5, CSS3 e JavaScript.
+- **Bibliotecas/frameworks:** Bootstrap 5.0.2.
+- **Ferramentas:** Visual Studio Code, Git e GitHub.
+- **Recursos:** sistema de grid, componentes responsivos, carrossel, tabelas, formulários e acordeão.
 
-## 🎯 Aprendizados
+## 📊 Resultados e Aprendizados
 
-- Organização de um site com várias páginas HTML.
-- Construção de navegação consistente entre páginas.
-- Uso do sistema de grid, componentes, utilitários e classes responsivas do Bootstrap.
-- Estruturação de tabelas, formulários, carrossel e acordeão.
+O projeto resultou em um site com várias páginas e uma estrutura visual consistente, utilizando recursos prontos do Bootstrap para agilizar a construção da interface.
 
-## ⚠️ Observação sobre os dados
+- **Bootstrap:** prática com o sistema de grid, classes utilitárias e componentes responsivos.
+- **Responsividade:** organização de conteúdo para diferentes tamanhos de tela.
+- **Componentes:** implementação de navegação, carrossel, tabelas, formulários e acordeão.
+- **Organização:** criação de páginas independentes com identidade visual e navegação compartilhadas.
 
-A página `dados.html` apresenta percentuais e comparações, mas os trechos disponíveis no projeto não identificam fontes para todos esses números. Eles não devem ser apresentados como estatísticas científicas verificadas sem a inclusão das referências correspondentes. Antes de uma entrega que exija fundamentação, complemente a página com fontes confiáveis ou identifique claramente os valores como exemplos ilustrativos.
+> **Observação sobre os dados:** a página `dados.html` apresenta percentuais e comparações que não possuem fontes identificadas para todos os valores. Portanto, esses números devem ser tratados como conteúdo ilustrativo, e não como estatísticas científicas verificadas.
 
-## ⚖️ Uso responsável de inteligência artificial
+## 🧠 Declaração de Uso Ético da IA
 
-O repositório não contém um registro verificável das ferramentas de IA eventualmente utilizadas nesta atividade. Não atribuo ferramentas, prompts ou partes do código a uma IA sem confirmação. Se houve uso, esta seção deve ser complementada com a ferramenta e a finalidade reais.
+Durante o desenvolvimento, utilizei ferramentas de inteligência artificial como apoio para esclarecer dúvidas, compreender conceitos e completar partes da implementação nas quais tive dificuldade. As sugestões foram utilizadas como suporte ao processo de desenvolvimento, com revisão e adaptação ao projeto. A responsabilidade pela versão final e pela conferência do funcionamento permanece comigo, como estudante e autor da entrega.
 
-## 🚀 Como executar
+## 💻 Deploy do Projeto
 
-1. Abra a pasta `AT4-Site-Multi-Paginas-Bootstrap`.
-2. Abra `index.html` em um navegador.
-3. Navegue pelas páginas usando o menu.
+O projeto ainda não foi publicado no GitHub Pages ou em outra plataforma de hospedagem.
 
-A página utiliza recursos do Bootstrap carregados por CDN, portanto a conexão com a internet é necessária para carregar a biblioteca. Não há endereço de deploy confirmado.
+- **Código-fonte:** disponível neste repositório.
+- **Deploy:** ainda não realizado.
 
 ---
 
